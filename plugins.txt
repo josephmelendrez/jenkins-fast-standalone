@@ -1,2 +1,3 @@
-matrix-auth:latest
-job-dsl:latest
+matrix-auth
+job-dsl
+workflow-aggregator
