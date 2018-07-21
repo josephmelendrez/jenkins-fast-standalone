@@ -15,7 +15,7 @@ RUN apt-get update
 RUN apt-get -y install python python-pip git wget unzip
 RUN pip install boto3
 RUN pip install awscli --upgrade
-RUN wget https://releases.hashicorp.com/terraform/0.11.2/terraform_0.11.2_linux_amd64.zip && unzip terraform_0.11.2_linux_amd64.zip -d /usr/bin/
+RUN wget https://releases.hashicorp.com/terraform/0.11.7/terraform_0.11.7_linux_amd64.zip && unzip terraform_0.11.7_linux_amd64.zip -d /usr/bin/
 
 #==========
 # Maven
